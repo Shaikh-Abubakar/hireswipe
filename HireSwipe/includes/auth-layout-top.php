@@ -1,0 +1,3 @@
+<?php $flash = take_flash(); ?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#11102a"><title><?= e(APP_NAME) ?> — Find your next move</title><link rel="stylesheet" href="<?= e(url('assets/css/style.css')) ?>"></head>
+<body class="auth-body"><div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><header class="topbar auth-topbar"><a class="brand" href="<?= e(url('index.php')) ?>"><span class="brand-mark">H</span>HireSwipe</a><span class="top-note">A better move starts here <span class="spark">✦</span></span></header><main class="auth-shell"><section class="auth-panel"><div class="auth-content">
